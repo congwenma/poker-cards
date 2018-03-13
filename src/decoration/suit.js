@@ -1,4 +1,4 @@
-import { MagicConstant } from "./utils";
+import { MagicConstant } from "../utils";
 const { HEART, SPADE, DIAMOND, CLUB } = MagicConstant;
 const { BLACK, RED } = MagicConstant;
 
