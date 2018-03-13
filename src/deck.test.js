@@ -62,5 +62,13 @@ describe("deck", () => {
         // console.log(oddsOf(positions));
       });
     });
+
+    describe("cut", () => {
+      it("should swap the positions of two halves", () => {
+        // console.log(deck.cards.map(c => c.toString()));
+        deck.cut();
+        // console.log(deck.cards.map(c => c.toString()));
+      });
+    });
   });
 });

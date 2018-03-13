@@ -22,6 +22,9 @@ class Suit {
     this.color = SUIT_COLORS[this.name];
     this.icon = SUIT_ICONS[this.name];
   }
+  toString() {
+    return `${this.name}`;
+  }
 }
 
 export default {

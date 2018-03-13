@@ -10,4 +10,8 @@ export default class Card {
   isA({ suit, rank }) {
     return this.suit === suit && this.rank === rank;
   }
+
+  toString() {
+    return `${this.suit.name[0]}-${this.rank.name}`;
+  }
 }

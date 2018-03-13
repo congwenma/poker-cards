@@ -34,7 +34,10 @@ export default class Deck {
   }
   cut() {
     const cutIndex = Math.floor(Math.random() * this.length);
-    this.cards = [this.cards.slice(cutIndex), ...this.cards.slice(0, cutIndex)];
+    this.cards = [
+      ...this.cards.slice(cutIndex),
+      ...this.cards.slice(0, cutIndex)
+    ];
   }
 
   // TODO: meta this
